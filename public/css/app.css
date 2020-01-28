@@ -1,0 +1,193 @@
+.main-container {
+  width: 1080px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.main-container .header-container {
+  background-color: #ededed;
+}
+
+.main-container .header-container .title-banner {
+  padding: 40px;
+  text-align: center;
+  color: #656565;
+  font-weight: bolder;
+}
+
+.main-container .header-container .header-menu {
+  background-color: #e9695b;
+  width: 100%;
+  padding: 5px;
+}
+
+.main-container .header-container .header-menu .menus {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: flex;
+  font-weight: bold;
+}
+
+.main-container .header-container .header-menu .menus li {
+  padding: 0 25px 0 0;
+  cursor: pointer;
+  color: #fff;
+}
+
+.main-container .header-container .header-menu .menus li a {
+  color: #fff;
+}
+
+.main-container .header-container .header-menu .menus li a:hover {
+  color: #000000;
+}
+
+.main-container .header-container .header-menu .menus li .active-menu {
+  color: #000000;
+}
+
+.main-container .header-container .header-menu .menus li:hover {
+  color: #000000;
+}
+
+.main-container .body-container .sub-banner {
+  color: #000000;
+  margin-top: 35px;
+  font-weight: bold;
+}
+
+.main-container .body-container .body-main-container {
+  display: -webkit-box;
+  display: flex;
+}
+
+.main-container .body-container .body-main-container .left-container {
+  width: 70%;
+  margin-top: 31px;
+}
+
+.main-container .body-container .body-main-container .left-container .show-list {
+  width: 100%;
+  border-color: #dddddd;
+}
+
+.main-container .body-container .body-main-container .left-container .show-list th {
+  background-color: #dddddd;
+  text-align: center;
+  padding: 5px;
+}
+
+.main-container .body-container .body-main-container .left-container .show-list td {
+  padding: 3px 3px 3px 15px;
+}
+
+.main-container .body-container .body-main-container .left-container .show-list td .mark-completed {
+  color: #e9695b;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main-container .body-container .body-main-container .left-container .paint-progress {
+  margin-top: 31px;
+}
+
+.main-container .body-container .body-main-container .left-container .paint-queue {
+  margin-top: 31px;
+}
+
+.main-container .body-container .body-main-container .right-container {
+  margin-top: 62px;
+  width: 30%;
+  padding-left: 25px;
+}
+
+.main-container .body-container .body-main-container .right-container .shop-performance {
+  width: 100%;
+  background-color: #ededed;
+}
+
+.main-container .body-container .body-main-container .right-container .shop-performance tr th {
+  background-color: #e9695b;
+  padding: 5px 5px 5px 10px;
+  color: #FFF;
+}
+
+.main-container .body-container .body-main-container .right-container .shop-performance tr td {
+  padding-left: 10px;
+}
+
+.main-container .body-container .body-main-container .right-container .shop-performance tr td .breakdown {
+  padding-left: 10px;
+}
+
+.main-container .body-container .body-main-container .right-container .shop-performance tr td .total {
+  text-align: center;
+  font-weight: bold;
+}
+
+.body-container .sub-banner {
+  color: #000000;
+  margin-top: 35px;
+  font-weight: bold;
+}
+
+.body-container .body-main-container .main-container {
+  display: inline;
+}
+
+.body-container .body-main-container .main-container .car-container {
+  width: 65%;
+  display: -webkit-box;
+  display: flex;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.body-container .body-main-container .main-container .car-container .arrow {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 50px;
+}
+
+.body-container .body-main-container .main-container .car-details-container {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.body-container .body-main-container .main-container .car-details-container .car-details-title {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.body-container .body-main-container .main-container .car-details-container .car-details-label {
+  width: 140px;
+}
+
+.body-container .body-main-container .main-container .car-details-container .car-details-input {
+  width: 200px;
+  height: 30px;
+}
+
+.body-container .body-main-container .main-container .car-details-container .car-details-input.error {
+  border-color: red;
+}
+
+.body-container .body-main-container .main-container .car-details-container .car-details-input-check {
+  ms-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  margin-left: 5px;
+}
+
+.body-container .body-main-container .main-container .car-details-container .car-details-submit {
+  width: 175px;
+  height: 35px;
+  color: #FFF;
+  background-color: #e9695b;
+  box-shadow: none;
+  border-radius: 0px;
+  border: 0;
+}
+
